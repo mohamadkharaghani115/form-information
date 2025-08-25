@@ -6,8 +6,151 @@
     <title>Form-Information</title>
     <link rel="stylesheet" href="dist/style.css">
 </head>
-<body>
-    
+<body class="p-4">
+    <fieldset class=" text-center border-2 border-black w-full rounded-2xl">
+        <legend>User-Form</legend>
+        <form action="" id="user" class="p-2 grid grid-cols-2  ">
+           <section class="flex flex-col gap-3 border-r pr-3">
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your name & lastname:</label>
+                <input type="text" placeholder="Full name: Ali Aslani" class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your phone number:</label>
+                <input type="tel" placeholder="+98912*******" class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your email address:</label>
+                <input type="email" placeholder="form@gmail.com" class="rounded-[5px] border border-black w-full px-3  text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your address:</label>
+                <input type="text" placeholder="Shahriyar-Vaein town-It Mabna" class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your professional profile link:</label>
+                <input type="url" placeholder="https://github.com/Itmabna" class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your last education evidence:</label>
+                <span class="flex items-center justify-between w-full">
+                    <div class="flex items-center gap-0.5">
+                        <label for="" class="text-[12px]">Diploma</label>
+                        <input type="checkbox" value="Diploma">
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for="" class="text-[12px]">Bachelor degree</label>
+                        <input type="checkbox" value="Bachelor degree">
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for="" class="text-[12px]">Master degree</label>
+                        <input type="checkbox" value="Master degree">
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for="" class="text-[12px]">Ph.d</label>
+                        <input type="checkbox" value="Ph.d">
+                    </div>
+                </span>
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your field of study:</label>
+                <input type="text" placeholder="Computer[ IT ]" class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your name's high school or university:</label>
+                <input type="text" placeholder="Elm Sanat or Shahid Shamsipoor" class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your final average:</label>
+                <input type="text" placeholder="18/98" class=" rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your job's title:</label>
+                <input type="text" placeholder="I had worked as sales manager since 2023" class=" rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your name of the workplace:</label>
+                <input type="text" placeholder="Tika Leather" class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>
+           </section>
+           <section class="flex flex-col gap-3 border-l pl-3">
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your started work and done work:</label>
+                <span class="flex items-center justify-around w-full">
+                    <div class="flex items-center gap-0.5">
+                        <label for="" class="text-[12px]">started:</label>
+                        <input type="date" class="border border-black text-[12px] px-3 rounded-[10px]">
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for="" class="text-[12px]">done:</label>
+                        <input type="date" class="border border-black text-[12px] px-3 rounded-[10px]">
+                    </div>
+                </span>
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your achievement:</label>
+                <textarea type="" placeholder="I could double sales"  class="rounded-[5px] h-[52px] border border-black w-full px-3 text-[12px]"></textarea>
+            </div>
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your soft skills:</label>
+                <input type="text" placeholder="I can work with everybody people" class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>            
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your hard skills:</label>
+                <input type="text" placeholder="I can design a website " class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div>  
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your level of mastery:</label>
+                <span class="w-full flex items-center justify-around">
+                    <div class="flex items-center gap-0.5">
+                        <label for="" class="text-[12px]">Low</label>
+                        <input type="checkbox" value="Low" id="level" name="level" >
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for=""  class="text-[12px]">Middle</label>
+                        <input type="checkbox" value="Middle" id="level" name="level" >
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for=""  class="text-[12px]">Professional</label>
+                        <input type="checkbox" value="Professional" id="level" name="level" >
+                    </div>
+                </span>
+                
+            </div>  
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter the languages you know:</label>
+                <input type="text" placeholder="chinese " class="rounded-[5px] border border-black w-full px-3 text-[12px]">
+            </div> 
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter your level of mastery:</label>
+                <span class="w-full flex flex-col gap-1">
+                    <div class="flex  items-center gap-0.5">
+                        <label for="" class="text-[12px]">Listening</label>
+                        <input class="w-full" type="range" value="Listening" id="level-la" name="level-la" >
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for=""  class="text-[12px]">Speaking</label>
+                        <input class="w-full"  type="range" value="Speaking" id="level-la" name="level-la" >
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for=""  class="text-[12px]">Writing</label>
+                        <input class="w-full" type="range" value="Writing" id="level-la" name="level-la" >
+                    </div>
+                    <div class="flex items-center gap-0.5">
+                        <label for=""  class="text-[12px]">Reading</label>
+                        <input class="w-full" type="range" value="Reading" id="level-la" name="level-la" >
+                    </div>
+                </span> 
+            </div> 
+            <div class="flex flex-col items-start">
+                <label for="" class="text-[14px]">Please enter information about yourself:</label>
+                <textarea type="" placeholder="About me :"  class="h-[50px] rounded-[5px] border border-black w-full px-3 text-[12px] "></textarea>  
+            </div>
+            <input type="submit" class="w-full text-[12px] px-3 border rounded-[5px]">
+           </section>   
+        
+            </form>
+    </fieldset>
     <script src="app/app.js"></script>
 </body>
 </html>
