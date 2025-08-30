@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+
+@layer components{
+    .hidden{
+        @apply hidden;
+    } 
+    .show{
+        @apply flex flex-col items-start ;
+    }
+    .fieldset{
+        @apply bg-gray-800  text-[#FF6B00] text-center border-4 border-[#FF6B00]  rounded-br-[60px] rounded-tl-[60px] w-[400px] my-8 h-auto p-10;
+    }
+
+}
